@@ -28,6 +28,16 @@ export default function Hero({ data, role }) {
         animate="show"
         className="relative z-10 flex-1 w-full"
       >
+        <motion.div variants={item} className="inline-block relative mb-6 lg:mb-8">
+          <span className="relative inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-bold tracking-widest uppercase backdrop-blur-md shadow-[0_0_20px_rgba(16,185,129,0.15)]">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            Open to Work
+          </span>
+        </motion.div>
+
         <motion.h1 variants={item} className="text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none pt-4">
           Hi, I'm <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#aa3bff] to-[#6b21a8] animate-gradient-x drop-shadow-2xl">
