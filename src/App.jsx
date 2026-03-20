@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { motion, useMotionValue, useSpring, AnimatePresence } from 'framer-motion';
 import { ROLES, resumeData } from './data/resumeData';
 import Hero from './Components/Hero';
 import About from './Components/About';
