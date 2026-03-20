@@ -7,6 +7,7 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Education from './Components/Education';
 import ResumeGenerator from './Components/ResumeGenerator';
+import Stats from './Components/Stats';
 
 function App() {
   const role = ROLES.GENERAL;
@@ -78,6 +79,7 @@ function App() {
 
         <Education data={resumeData.education} />
         <Skills data={resumeData.skills} role={role} />
+        <Stats />
         <Projects data={resumeData.projects} role={role} />
         
         {/* Contact Footer */}

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, CodeSquare, Trophy } from 'lucide-react';
+import { Mail, Linkedin, Github, CodeSquare, Trophy, Instagram } from 'lucide-react';
 import { ROLES } from '../data/resumeData';
 
 export default function Hero({ data, role }) {
@@ -106,6 +106,18 @@ export default function Hero({ data, role }) {
             className="flex items-center gap-3 px-8 py-4 bg-[#111116]/80 backdrop-blur-xl border border-white/5 shadow-[inset_0_1px_0_rgba(255,255,255,0.1)] text-white rounded-2xl font-bold text-lg hover:border-[#aa3bff]/50 hover:bg-[#aa3bff]/10 transition-all duration-300"
           >
             <Trophy size={20} className="text-[#aa3bff]" /> Codolio
+          </motion.a>
+
+          <motion.a
+            variants={item}
+            whileHover={{ scale: 1.05, y: -5 }}
+            whileTap={{ scale: 0.95 }}
+            href={`https://${data.instagram}`}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-3 px-8 py-4 bg-[#111116]/80 backdrop-blur-xl border border-white/5 shadow-[inset_0_1px_0_rgba(255,255,255,0.1)] text-white rounded-2xl font-bold text-lg hover:border-[#aa3bff]/50 hover:bg-[#aa3bff]/10 transition-all duration-300"
+          >
+            <Instagram size={20} className="text-[#aa3bff]" /> Instagram
           </motion.a>
         </motion.div>
       </motion.div>
