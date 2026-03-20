@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { ROLES, resumeData } from './data/resumeData';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Education from './components/Education';
-import ResumeGenerator from './components/ResumeGenerator';
+import Hero from './Components/Hero';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
+import Education from './Components/Education';
+import ResumeGenerator from './Components/ResumeGenerator';
 
 function App() {
   const role = ROLES.GENERAL;
