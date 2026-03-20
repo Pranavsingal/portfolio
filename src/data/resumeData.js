@@ -16,7 +16,7 @@ export const resumeData = {
     email: 'pranavkumarsinghal@gmail.com',
     linkedin: 'linkedin.com/in/pranav-singal',
     github: 'github.com/Pranavsingal',
-    leetcode: 'leetcode.com/u/pranavsingal',
+    leetcode: 'leetcode.com/u/Pranav_Singal',
     codolio: 'codolio.com/profile/Pranav%20Singal/card',
     instagram: 'instagram.com/pranav_singal'
   },
