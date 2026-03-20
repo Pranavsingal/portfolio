@@ -17,7 +17,8 @@ export const resumeData = {
     linkedin: 'linkedin.com/in/pranav-singal',
     github: 'github.com/Pranavsingal',
     leetcode: 'leetcode.com/u/pranavsingal',
-    codolio: 'codolio.com/profile/pranavsingal'
+    codolio: 'codolio.com/profile/Pranav%20Singal/card',
+    instagram: 'instagram.com/pranav_singal'
   },
   summary: {
     [ROLES.GENERAL]: 'Computer Science undergraduate at VIT Bhopal with hands-on experience in machine learning and AI-enabled software systems. Strong foundation in Data Structures, Object-Oriented Programming, and backend development. Seeking internship opportunities.',
