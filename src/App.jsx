@@ -76,10 +76,11 @@ function App() {
             {/* Sticky Top Nav */}
             <nav className="fixed top-0 w-full bg-[#060608]/60 backdrop-blur-xl border-b border-white/5 z-40 transition-colors duration-300">
               <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center gap-4">
-                <div className="font-bold text-xl tracking-wide text-white flex items-center gap-2 group cursor-pointer relative z-50">
-                  Pranav
-                  <span className="text-[#aa3bff] group-hover:scale-150 transition-transform duration-300 inline-block">.</span>
-                  Singal
+                <div className="font-bold text-xl tracking-wide flex items-baseline gap-1.5 group cursor-pointer relative z-50">
+                  <span className="text-white">Pranav</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#aa3bff] to-[#6b21a8] font-black tracking-tighter group-hover:tracking-widest transition-all duration-500">
+                    SINGAL
+                  </span>
                 </div>
               </div>
             </nav>
@@ -88,14 +89,14 @@ function App() {
               <Hero data={resumeData.personal} role={role} />
               <About data={resumeData.summary} role={role} />
               
-              <ResumeGenerator />
-              
-              <Certifications />
-
-              <Education data={resumeData.education} />
               <Skills data={resumeData.skills} role={role} />
-              <Stats />
               <Projects data={resumeData.projects} role={role} />
+              
+              <Education data={resumeData.education} />
+              <Certifications />
+              
+              <Stats />
+              <ResumeGenerator />
               
               {/* Contact Footer */}
               <section className="relative text-center py-20 border-t border-white/10 gap-6 flex flex-col items-center overflow-hidden rounded-3xl group">
